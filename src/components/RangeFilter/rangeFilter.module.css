@@ -1,0 +1,11 @@
+.container {
+    display: flex
+  }
+  
+  .card {
+    padding: 20px 40px;
+    background-color: cadetblue;
+    margin-right: 10px;
+    min-width: 100px;
+    border-radius: 10px;
+  }

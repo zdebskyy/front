@@ -1,0 +1,50 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-item {
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+.nav-item:last-child {
+    margin: 0;
+}
+
+.card-container {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 1440px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card-item {
+   display: flex;
+   margin-right: 30px;
+   margin-bottom: 10px;
+   padding: 10px;
+   max-width: 200px;
+   flex-direction: column;
+}
+
+.card-item:last-child {
+    margin-right: 0;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+}
